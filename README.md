@@ -1,5 +1,4 @@
-# Graph-Signal-Estimation
-### The goal of this project is to propose novel strategies for adaptive learning of signals
-### defined over graphs, which are observed over a (randomly time-varying) subset of vertices.
-### Primarily, I am going to use the least mean squares (LMS) adaptive estimation strategy and
-### if time permits I can use the recursive mean squares (RLS) adaptive estimation strategy.
+# Adaptive Least Mean Squares Estimation of Graph Signals
+### The aim of this project is to propose a least mean squares (LMS) strategy for adaptive estimation of sigals defined over graphs. Assuming the graph signal to be band-limited, over a known bandwidth, the method enables reconstruction, with guaranteed performance in terms of mean square error, and tracking from a limited number of observations over a subset of vertices.
+
+### Furthermore, to cope with the case where the bandwidth is not known beforehand, we propose a method that performs a sparse online estimation of the signal support in the (graph) frequency domain, which enables online adaptation of the graph sampling strategy.
